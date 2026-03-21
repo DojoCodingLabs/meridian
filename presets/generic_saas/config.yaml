@@ -1,0 +1,50 @@
+# Meridian Preset: Generic SaaS Template
+# Customize this for your product
+
+project:
+  name: "My SaaS Product"
+  description: "Product profitability prediction"
+
+target_product:
+  name: "My Product"
+  category: "saas"
+  description: "Describe your product here"
+  quality_score: 0.7
+  brand_strength: 0.3
+  tiers:
+    - name: "free"
+      monthly_price: 0.00
+      features: ["basic_feature"]
+    - name: "pro"
+      monthly_price: 29.00
+      features: ["basic_feature", "advanced_feature", "support"]
+    - name: "enterprise"
+      monthly_price: 99.00
+      features: ["everything", "sso", "dedicated_support"]
+  trial:
+    enabled: true
+    days: 14
+    tier: "pro"
+
+competitors:
+  - name: "Competitor A"
+    base_price: 25.00
+    quality_score: 0.7
+    brand_strength: 0.6
+    feature_overlap: 0.6
+  - name: "Competitor B"
+    base_price: 15.00
+    quality_score: 0.5
+    brand_strength: 0.8
+    feature_overlap: 0.4
+
+simulation:
+  num_agents: 100
+  num_timesteps: 30
+  activate_prob: 0.3
+  timezone: "UTC"
+
+inference:
+  model: "gpt-4o-mini"
+  temperature: 0.7
+  max_concurrent: 10

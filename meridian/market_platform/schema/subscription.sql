@@ -1,0 +1,20 @@
+CREATE TABLE subscription (
+    subscription_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER,
+    product_id INTEGER,
+    tier_id INTEGER,
+    status TEXT DEFAULT 'active' CHECK(status IN ('trial','active','paused','cancelled','expired')),
+    started_at DATETIME,
+    trial_ends_at DATETIME,
+    current_period_start DATETIME,
+    current_period_end DATETIME,
+    cancelled_at DATETIME,
+    cancel_reason TEXT,
+    satisfaction_score REAL DEFAULT 5.0,
+    engagement_score REAL DEFAULT 5.0,
+    months_active INTEGER DEFAULT 0,
+    total_paid REAL DEFAULT 0.0,
+    FOREIGN KEY(user_id) REFERENCES user(user_id),
+    FOREIGN KEY(product_id) REFERENCES product(product_id),
+    FOREIGN KEY(tier_id) REFERENCES product_tier(tier_id)
+);

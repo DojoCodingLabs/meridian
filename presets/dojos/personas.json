@@ -1,0 +1,265 @@
+[
+  {
+    "name": "Santiago Mora",
+    "username": "santi_dev",
+    "bio": "CS student from Colombia learning web development. Works part-time at a local startup. Passionate about React but can't afford expensive courses.",
+    "age": 22,
+    "gender": "male",
+    "mbti": "ENFP",
+    "country": "Colombia",
+    "profession": "Junior Developer",
+    "interested_topics": ["web development", "React", "freelancing", "AI tools"],
+    "economic": {
+      "monthly_income": 150,
+      "current_monthly_spend": 15,
+      "budget_flexibility": 0.3,
+      "adoption_curve": "early_adopter",
+      "price_sensitivity": 0.85,
+      "social_influence_weight": 0.7,
+      "brand_loyalty_inertia": 0.2,
+      "quality_expectation": 0.5,
+      "current_subscriptions": [
+        {"name": "Spotify", "monthly_cost": 3.5, "satisfaction": 8, "months_subscribed": 24}
+      ],
+      "pain_points": ["scattered free content", "no structured learning path", "can't find paid projects"],
+      "unmet_needs": ["mentorship", "portfolio projects", "job connections"]
+    }
+  },
+  {
+    "name": "Valentina Torres",
+    "username": "val_ux",
+    "bio": "UX designer from Mexico transitioning into full-stack development. Has a Platzi subscription but wants more hands-on projects.",
+    "age": 28,
+    "gender": "female",
+    "mbti": "INFJ",
+    "country": "Mexico",
+    "profession": "UX Designer / Aspiring Developer",
+    "interested_topics": ["UX design", "full-stack", "product design", "startup culture"],
+    "economic": {
+      "monthly_income": 350,
+      "current_monthly_spend": 60,
+      "budget_flexibility": 0.4,
+      "adoption_curve": "early_majority",
+      "price_sensitivity": 0.6,
+      "social_influence_weight": 0.65,
+      "brand_loyalty_inertia": 0.5,
+      "quality_expectation": 0.7,
+      "current_subscriptions": [
+        {"name": "Platzi", "monthly_cost": 49, "satisfaction": 6, "months_subscribed": 18},
+        {"name": "Figma Pro", "monthly_cost": 12, "satisfaction": 9, "months_subscribed": 30}
+      ],
+      "pain_points": ["Platzi lacks hands-on projects", "no community of builders", "theory-heavy content"],
+      "unmet_needs": ["real project experience", "community of active builders", "hackathon opportunities"]
+    }
+  },
+  {
+    "name": "Diego Ramirez",
+    "username": "diego_backend",
+    "bio": "Senior backend engineer from Argentina. 8 years experience. Looking for advanced content and mentoring opportunities. Could be a VIP candidate.",
+    "age": 34,
+    "gender": "male",
+    "mbti": "INTJ",
+    "country": "Argentina",
+    "profession": "Senior Software Engineer",
+    "interested_topics": ["system design", "distributed systems", "mentoring", "tech leadership"],
+    "economic": {
+      "monthly_income": 600,
+      "current_monthly_spend": 45,
+      "budget_flexibility": 0.6,
+      "adoption_curve": "early_adopter",
+      "price_sensitivity": 0.35,
+      "social_influence_weight": 0.3,
+      "brand_loyalty_inertia": 0.4,
+      "quality_expectation": 0.85,
+      "current_subscriptions": [
+        {"name": "O'Reilly Safari", "monthly_cost": 39, "satisfaction": 7, "months_subscribed": 36}
+      ],
+      "pain_points": ["most LatAm content is too basic", "want to give back through mentoring"],
+      "unmet_needs": ["advanced technical content", "mentoring platform", "LatAm tech leadership community"]
+    }
+  },
+  {
+    "name": "Lucia Fernandez",
+    "username": "lu_startup",
+    "bio": "Startup founder from Costa Rica building her second venture. Needs developers and wants to learn enough code to prototype. Potential B2B client.",
+    "age": 31,
+    "gender": "female",
+    "mbti": "ENTJ",
+    "country": "Costa Rica",
+    "profession": "Startup Founder",
+    "interested_topics": ["vibe coding", "MVP development", "hiring developers", "AI automation"],
+    "economic": {
+      "monthly_income": 800,
+      "current_monthly_spend": 120,
+      "budget_flexibility": 0.7,
+      "adoption_curve": "innovator",
+      "price_sensitivity": 0.2,
+      "social_influence_weight": 0.5,
+      "brand_loyalty_inertia": 0.15,
+      "quality_expectation": 0.8,
+      "current_subscriptions": [
+        {"name": "Notion", "monthly_cost": 10, "satisfaction": 9, "months_subscribed": 24},
+        {"name": "Claude Pro", "monthly_cost": 20, "satisfaction": 9, "months_subscribed": 6},
+        {"name": "Vercel Pro", "monthly_cost": 20, "satisfaction": 8, "months_subscribed": 12}
+      ],
+      "pain_points": ["hard to find reliable LatAm developers", "need to prototype faster"],
+      "unmet_needs": ["vibe coding skills", "developer hiring pipeline", "nearshore team access"]
+    }
+  },
+  {
+    "name": "Andres Gutierrez",
+    "username": "andres_hr",
+    "bio": "HR manager at a mid-size tech company in Peru. Responsible for developer training budget. B2B prospect.",
+    "age": 38,
+    "gender": "male",
+    "mbti": "ESTJ",
+    "country": "Peru",
+    "profession": "HR / Training Manager",
+    "interested_topics": ["team training", "developer upskilling", "corporate learning", "talent retention"],
+    "economic": {
+      "monthly_income": 500,
+      "current_monthly_spend": 30,
+      "budget_flexibility": 0.5,
+      "adoption_curve": "late_majority",
+      "price_sensitivity": 0.55,
+      "social_influence_weight": 0.75,
+      "brand_loyalty_inertia": 0.6,
+      "quality_expectation": 0.75,
+      "current_subscriptions": [
+        {"name": "LinkedIn Learning", "monthly_cost": 30, "satisfaction": 5, "months_subscribed": 24}
+      ],
+      "pain_points": ["LinkedIn Learning content is generic", "hard to measure developer growth"],
+      "unmet_needs": ["structured developer pathways", "progress tracking", "team analytics"]
+    }
+  },
+  {
+    "name": "Carolina Vega",
+    "username": "caro_switch",
+    "bio": "Former accountant from Guatemala switching to tech. Complete beginner. Very price sensitive. Free tier target.",
+    "age": 26,
+    "gender": "female",
+    "mbti": "ISFJ",
+    "country": "Guatemala",
+    "profession": "Career Switcher (Accounting to Tech)",
+    "interested_topics": ["learn to code", "career change", "beginner programming", "data analysis"],
+    "economic": {
+      "monthly_income": 80,
+      "current_monthly_spend": 5,
+      "budget_flexibility": 0.15,
+      "adoption_curve": "late_majority",
+      "price_sensitivity": 0.95,
+      "social_influence_weight": 0.8,
+      "brand_loyalty_inertia": 0.3,
+      "quality_expectation": 0.4,
+      "current_subscriptions": [],
+      "pain_points": ["can't afford expensive courses", "don't know where to start", "scared of tech"],
+      "unmet_needs": ["free beginner content", "supportive community", "clear roadmap"]
+    }
+  },
+  {
+    "name": "Mateo Silva",
+    "username": "mateo_freelance",
+    "bio": "Freelance web developer from Panama. Makes decent money but wants to level up skills and find better clients. Blueprint target.",
+    "age": 29,
+    "gender": "male",
+    "mbti": "ISTP",
+    "country": "Panama",
+    "profession": "Freelance Web Developer",
+    "interested_topics": ["freelancing", "client acquisition", "AI-assisted coding", "portfolio building"],
+    "economic": {
+      "monthly_income": 400,
+      "current_monthly_spend": 25,
+      "budget_flexibility": 0.5,
+      "adoption_curve": "early_majority",
+      "price_sensitivity": 0.5,
+      "social_influence_weight": 0.45,
+      "brand_loyalty_inertia": 0.35,
+      "quality_expectation": 0.6,
+      "current_subscriptions": [
+        {"name": "GitHub Pro", "monthly_cost": 4, "satisfaction": 8, "months_subscribed": 36},
+        {"name": "Udemy courses", "monthly_cost": 10, "satisfaction": 5, "months_subscribed": 12}
+      ],
+      "pain_points": ["Udemy courses are passive", "clients pay low rates", "no portfolio to show"],
+      "unmet_needs": ["ship a real product", "better client pipeline", "AI coding skills"]
+    }
+  },
+  {
+    "name": "Isabella Morales",
+    "username": "isa_influence",
+    "bio": "Tech content creator from Chile with 15K followers. Reviews dev tools and courses. Potential amplifier.",
+    "age": 27,
+    "gender": "female",
+    "mbti": "ENFJ",
+    "country": "Chile",
+    "profession": "Tech Content Creator",
+    "interested_topics": ["dev tools", "course reviews", "tech community", "content creation"],
+    "economic": {
+      "monthly_income": 500,
+      "current_monthly_spend": 80,
+      "budget_flexibility": 0.6,
+      "adoption_curve": "early_adopter",
+      "price_sensitivity": 0.3,
+      "social_influence_weight": 0.25,
+      "brand_loyalty_inertia": 0.2,
+      "quality_expectation": 0.8,
+      "current_subscriptions": [
+        {"name": "Platzi", "monthly_cost": 49, "satisfaction": 7, "months_subscribed": 36},
+        {"name": "Notion", "monthly_cost": 10, "satisfaction": 9, "months_subscribed": 24}
+      ],
+      "pain_points": ["always looking for new tools to review", "audience asks for recommendations"],
+      "unmet_needs": ["unique platform to review", "community features to showcase", "affiliate opportunities"]
+    }
+  },
+  {
+    "name": "Roberto Chen",
+    "username": "rob_student",
+    "bio": "Computer science student from Costa Rica. University junior. Uses free resources but wants structured paths. Future Pro candidate.",
+    "age": 20,
+    "gender": "male",
+    "mbti": "INTP",
+    "country": "Costa Rica",
+    "profession": "CS Student",
+    "interested_topics": ["algorithms", "blockchain", "hackathons", "internships"],
+    "economic": {
+      "monthly_income": 100,
+      "current_monthly_spend": 8,
+      "budget_flexibility": 0.2,
+      "adoption_curve": "early_adopter",
+      "price_sensitivity": 0.75,
+      "social_influence_weight": 0.6,
+      "brand_loyalty_inertia": 0.15,
+      "quality_expectation": 0.55,
+      "current_subscriptions": [
+        {"name": "GitHub Student", "monthly_cost": 0, "satisfaction": 9, "months_subscribed": 18}
+      ],
+      "pain_points": ["university teaches theory not practice", "want real project experience"],
+      "unmet_needs": ["hackathon access", "project-based learning", "internship connections"]
+    }
+  },
+  {
+    "name": "Fernando Lopez",
+    "username": "fer_legacy",
+    "bio": "Java developer from Brazil working at a bank. 12 years experience but stuck in legacy tech. Skeptical of new platforms. Laggard segment.",
+    "age": 40,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "Brazil",
+    "profession": "Enterprise Java Developer",
+    "interested_topics": ["Java", "enterprise software", "job security", "gradual modernization"],
+    "economic": {
+      "monthly_income": 450,
+      "current_monthly_spend": 10,
+      "budget_flexibility": 0.3,
+      "adoption_curve": "laggard",
+      "price_sensitivity": 0.7,
+      "social_influence_weight": 0.2,
+      "brand_loyalty_inertia": 0.85,
+      "quality_expectation": 0.6,
+      "current_subscriptions": [
+        {"name": "Alura (Brazilian platform)", "monthly_cost": 10, "satisfaction": 6, "months_subscribed": 48}
+      ],
+      "pain_points": ["comfortable with current tools", "skeptical of trendy platforms"],
+      "unmet_needs": ["would only switch if forced by market", "needs Java-specific advanced content"]
+    }
+  }
+]

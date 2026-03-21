@@ -1,0 +1,171 @@
+# Meridian Preset: DojoOS (dojocoding.io)
+# EdTech + Software Agency platform targeting Latin American developers
+
+project:
+  name: "DojoOS Profitability Prediction"
+  description: "Predict market reception and profitability for DojoOS in the LatAm developer market"
+
+target_product:
+  name: "DojoOS"
+  category: "edtech"
+  description: "AI-powered coding education platform with courses, hackathons, community, and startup incubation"
+  quality_score: 0.70
+  brand_strength: 0.35
+  tiers:
+    - name: "free"
+      monthly_price: 0.00
+      features:
+        - "intro_webinars"
+        - "beginner_ebooks"
+        - "select_articles"
+        - "weekly_market_updates"
+        - "community_previews"
+    - name: "pro"
+      monthly_price: 47.00
+      annual_price: 470.00
+      features:
+        - "full_course_library"
+        - "interactive_pathways"
+        - "community_chat"
+        - "weekly_live_qa"
+        - "monthly_challenges"
+        - "exclusive_resources"
+        - "ai_agent_chat"
+        - "inner_dojo_forum"
+    - name: "vip"
+      monthly_price: 297.00
+      annual_price: 3500.00
+      features:
+        - "everything_in_pro"
+        - "one_on_one_mentorship"
+        - "advanced_strategies"
+        - "customized_portfolio"
+        - "priority_support"
+        - "vip_exclusive_content"
+        - "early_access"
+  one_time_products:
+    - name: "VibeCoding Blueprint"
+      price: 97.00
+      features:
+        - "curated_vibe_coding_pathway"
+        - "lifetime_access"
+        - "community_access"
+        - "project_templates"
+  trial:
+    enabled: true
+    days: 7
+    tier: "pro"
+
+competitors:
+  - name: "Platzi"
+    base_price: 49.00
+    quality_score: 0.80
+    brand_strength: 0.85
+    feature_overlap: 0.65
+    description: "Largest LatAm online education platform. Strong brand, established content library."
+  - name: "Henry"
+    base_price: 0.00
+    quality_score: 0.70
+    brand_strength: 0.60
+    feature_overlap: 0.40
+    description: "ISA-model bootcamp. Free upfront, pay after getting a job. High-commitment model."
+  - name: "Coderhouse"
+    base_price: 35.00
+    quality_score: 0.65
+    brand_strength: 0.55
+    feature_overlap: 0.50
+    description: "Argentine coding school with live classes. Lower price, more traditional."
+  - name: "Udemy"
+    base_price: 15.00
+    quality_score: 0.55
+    brand_strength: 0.90
+    feature_overlap: 0.35
+    description: "Global marketplace. Very cheap on sales. Passive learning, no community."
+  - name: "Free YouTube"
+    base_price: 0.00
+    quality_score: 0.40
+    brand_strength: 0.95
+    feature_overlap: 0.25
+    description: "Free tutorials. Massive content but no structure, no community, no accountability."
+
+simulation:
+  num_agents: 200
+  num_timesteps: 30
+  activate_prob: 0.3
+  timezone: "America/Costa_Rica"
+
+  agent_segments:
+    innovator: 0.025
+    early_adopter: 0.135
+    early_majority: 0.34
+    late_majority: 0.34
+    laggard: 0.16
+
+  country_distribution:
+    Costa Rica: 0.20
+    Colombia: 0.20
+    Mexico: 0.20
+    Argentina: 0.10
+    Peru: 0.10
+    Guatemala: 0.05
+    Panama: 0.05
+    Chile: 0.05
+    Brazil: 0.05
+
+  actions:
+    - REFRESH
+    - CREATE_POST
+    - LIKE_POST
+    - DISLIKE_POST
+    - CREATE_COMMENT
+    - FOLLOW
+    - SEARCH_POSTS
+    - BROWSE_PRODUCTS
+    - COMPARE_PRODUCTS
+    - VIEW_PRODUCT_DETAILS
+    - START_TRIAL
+    - SUBSCRIBE
+    - CANCEL_SUBSCRIPTION
+    - WRITE_REVIEW
+    - REFER_FRIEND
+    - EVALUATE_ALTERNATIVES
+    - BROWSE_REVIEWS
+    - DO_NOTHING
+
+inference:
+  model: "gpt-4o-mini"
+  temperature: 0.7
+  max_concurrent: 10
+
+analysis:
+  report_sections:
+    - "executive_summary"
+    - "market_reception"
+    - "conversion_dynamics"
+    - "pricing_analysis"
+    - "competitive_positioning"
+    - "churn_risk_factors"
+    - "revenue_projections"
+
+counterfactual:
+  scenarios:
+    - name: "pro_at_29"
+      description: "What if Pro was $29/mo instead of $47?"
+      variable: "target_product.tiers.1.monthly_price"
+      value: 29.00
+    - name: "pro_at_37"
+      description: "What if Pro was $37/mo?"
+      variable: "target_product.tiers.1.monthly_price"
+      value: 37.00
+    - name: "no_free_tier"
+      description: "What if there was no free tier?"
+      variable: "target_product.tiers.0"
+      operation: "remove"
+    - name: "30_day_trial"
+      description: "What if the trial was 30 days instead of 7?"
+      variable: "target_product.trial.days"
+      value: 30
+    - name: "vip_at_97"
+      description: "What if VIP was $97/mo instead of $297?"
+      variable: "target_product.tiers.2.monthly_price"
+      value: 97.00
