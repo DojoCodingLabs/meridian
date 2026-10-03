@@ -1,0 +1,12 @@
+name = "Meridian"
+tagline = "Simulate a product's market [before launch]"
+chips = ["5 segments / 18 actions"]
+meta = "Open source · Python"
+tile = "</>"
+
+[card]
+kind = "terminal"
+label = "Python"
+status = "v0.1.0 · Apache-2.0"
+lines = ["cd meridian", "pip install -e .", "python examples/quick_start.py"]
+dim = "gate · propensity · satisfaction"
